@@ -20,6 +20,16 @@ export default function Projects() {
         <h2 className="text-2xl sm:text-4xl pr-2 sm:pr-16">about me</h2>
         <div className="text-xl sm:text-2xl flex flex-col overflow-y-scroll pb-16">
             <p className="pr-2 sm:pr-16">My name is Whit Milan. I am a driven software engineer, self-taught, and highly motivated to grow and learn new things. If you&apos;d like to know about how I got here, feel free to scroll through my journey below.</p>
+            <div className="text-lg sm:text-xl flex flex-col pt-6 pr-2 sm:pr-16">
+                <span className="text-teal-700">.what_i_offer <span className="text-white">&#10100;</span></span>
+                <p className="indent-8 sm:indent-12 text-base sm:text-lg">
+                    I design, build, and ship full-stack web applications, APIs, and PWAs — from client-facing
+                    sites and internal tools to AI-powered products. See <span className="text-teal-400">projects.json</span> for
+                    examples and <span className="text-teal-400">policies.md</span> for how engagements, payment, and
+                    revisions typically work.
+                </p>
+                <span className="text-white">&#10101;</span>
+            </div>
             <div className="flex flex-col w-full items-center pt-8 pr-2 sm:pr-16">
                 <span className="py-4">Today</span>
                 <TimelineConnector/>
