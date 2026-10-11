@@ -15,6 +15,7 @@ const navLinks = [
     { href: "/about", label: "about.html" },
     { href: "/resume", label: "resume.pdf" },
     { href: "/blog", label: "blog.md" },
+    { href: "/policies", label: "policies.md" },
 ]
 
 export default function FileTree() {
